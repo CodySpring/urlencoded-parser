@@ -1,5 +1,13 @@
 const urlencodedParser = require('../index')
 
+describe('#()', () => {
+  it('should call next when done', done => {
+    urlencodedParser({ body: {} }, {}, () => {
+      done()
+    })
+  })
+})
+
 describe('#raw()', () => {
   it('should parse a single key into itself.', () => {
     const parsed = urlencodedParser.raw({ 'foo': 1 })
