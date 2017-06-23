@@ -7,6 +7,13 @@
     "test": "standard && jest",
     "coverage": "standard && jest --coverage"
   },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codyspring/urlencoded-parser.git"
