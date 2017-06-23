@@ -2,7 +2,7 @@
   "name": "urlencoded-parser",
   "version": "1.0.0",
   "description": "Takes urlencoded form data in an express.js request object and turns it into a nested json object.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
   },
