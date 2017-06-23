@@ -54,4 +54,3 @@ const urlencodedParser = (req, res, next) => {
 }
 
 module.exports = urlencodedParser
-export default urlencodedParser
