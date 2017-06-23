@@ -4,8 +4,8 @@
   "description": "Takes urlencoded form data in an express.js request object and turns it into a nested json object.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "test": "standard && jest",
+    "coverage": "standard && jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "body-parser": "1.x"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "standard": "^10.0.2"
   }
 }
